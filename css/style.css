@@ -548,7 +548,11 @@ h3 {
         background: rgb(211, 211, 211, 0.6)
     }
 
-    .headline2 h2{
-        margin-bottom: 100px;
+    #article-card4 {
+        max-width: 1600px;
+    }
+
+    .services1 h2 {
+        font-size: 40px;
     }
 }
