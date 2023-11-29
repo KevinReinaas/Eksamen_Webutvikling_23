@@ -340,7 +340,7 @@ h3 {
     font-size: 22px;
 }
 
-.head-link.--current {
+.head-link[tabindex]:focus {
     font-weight: bold;
     text-decoration: underline;
     text-decoration-color: #e6bd43;
