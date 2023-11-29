@@ -1,0 +1,554 @@
+html {
+    max-width: 1600px;
+}
+
+header {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: #000;
+}
+
+footer p {
+    color: #fff;
+}
+
+.headline, .headline1, .headline2 {
+    background: url("../img/background.jpg");
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    min-height: 400px;
+}
+
+.headline1 h2, .headline2 h2 {
+    font-size: 48px;
+}
+
+p {
+    font-size: 22px;
+}
+
+.headline-link, .headline-link1 {
+    display: inline-block;
+    padding: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    background-color: #e6bd43;
+    max-width: 250px;
+}
+
+.headline-link1 {
+    margin-bottom: 30px;
+}
+
+.head-link {
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+    padding: 10px; 
+    font-size: 24px;
+    max-width: 250px;
+}
+
+.headline1 {
+    background-color: #eee;
+}
+
+#article-card {
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 300px;
+    width: 100%;
+}
+
+#my-vid {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+
+.engage {
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.engage h2 {
+    font-size: 30px;
+}
+
+.about {
+    text-align: center;
+    background-color: #e6bd43;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.about img {
+    width: 400px;
+    height: 400px;
+}
+
+#article-card2 {
+    max-width: 300px;
+    width: 100%;
+    margin-left: 20%;
+    text-align: left;
+}
+
+.link {
+    display: inline-block;
+    padding: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.link2 {
+    display: inline-block;
+    padding: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.services {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.newsletter {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-color: lightgray;
+}
+
+.newsletter input {
+    height: 40px;
+    width: 250px;
+    border: none;
+}
+
+button {
+    display: inline-block;
+    padding: 10px; 
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+    background-color: #e6bd43;
+}
+
+.fa-brands {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.fa-solid {
+    font-size: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+hr {
+    height: 5px;
+    background-color: #e6bd43;
+    margin-bottom: 30px;
+}
+
+.jobs {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.jobs h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.jobs a {
+    display: inline-block;
+    padding: 10px; 
+    text-decoration: none;
+    font-weight: bold;
+    border: 2px solid #000;
+    font-size: 24px;
+    color: #000;
+}
+
+.branding {
+    display: flex;
+    display: inline-block;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    flex-grow: 1;
+    transition: transform 0.3s ease;
+}
+
+.branding h2 {
+    text-align: left;
+    font-size: 30px;
+}
+
+.branding img {
+    max-width: 692px;
+    width: 100%;
+    height: 100%;
+}
+
+#article-card3 {
+    max-width: 350px;
+    width: 100%;
+    text-align: left;
+    background-color: lightgray;
+}
+
+#article-card3 * {
+    width: 60%;
+    margin-left: 20%;
+}
+
+.clients {
+    background-color: #e6bd43;
+    width: 100%;
+    text-align: center;
+}
+
+.clients h2 {
+    padding-top: 30px;
+}
+
+.logo1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.logo2, .logo3 {
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.clients2 {
+    padding-bottom: 20px;
+}
+
+.contact-art {
+    margin-top: -20px;
+    background-color: #eee;
+}
+
+.contact {
+    margin-left: 5%;
+    margin-right: 10%;
+    margin-bottom: 60px;
+    text-align: left;
+}
+
+.title {
+    padding-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.contact input {
+    width: 100%;
+    height: 50px;
+    border: none;
+}
+
+.contact button {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border: none;
+}
+
+.info {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.info .fa-solid {
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 0;
+}
+
+.footer3 {
+    margin-top: -5px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+iframe {
+    width: 100%;
+}
+
+.products-link2 {
+    margin-top: 5px;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+.head-link:active {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #e6bd43;
+    color: #000;
+}
+
+.back-to-top-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.info p {
+    display: inline-block;
+}
+
+@media (min-width: 768px) {
+
+    .page3 .headline-link1 {
+        margin-bottom: 60px;
+    }
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    header nav {
+        display: flex;
+    }
+    
+    header nav a {
+        margin-right: 15px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    /*Legger til video manuelt*/
+    #my-vid {
+        max-width: 1600px;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    /*Legger til video som bakgrunn(Fungerer ikke, vet ikke hvorfor)*/
+    .headline1 {
+        position: relative;
+        height: 100%;
+        overflow: hidden;
+        background: url(../img/mountains.mp4);
+    }
+
+    .headline h1 {
+        font-size: 64px;
+    }
+
+    #article-card {
+        position: absolute;
+        max-width: 950px;
+    }
+
+    .headline-link:hover, .headline-link1:hover, button:hover {
+        background-color: #000;
+        color: #e6bd43;
+    }
+
+    .services {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .services1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .engage h2 {
+        font-size: 52px;
+    }
+
+    .about {
+        display: flex;
+        justify-content: left;
+    }
+
+    .about img {
+        width: 400px;
+        height: 400px;
+        margin-left: 3%;
+    }
+
+    #article-card {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: #000;
+    }
+
+    #article-card2 {
+        max-width: 1100px;
+        margin-left: 50px;
+    }
+
+    #article-card3 {
+        max-width: 50%;
+        margin-right: 5%;
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+
+    #article-card3 * {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .headline {
+        justify-content: right;
+    }
+
+    .headline-link {
+        padding: 20px;
+    }
+
+    .headline-link1 {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .clients h2 {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    .clients2 {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo1, .logo2, .logo3 {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-art {
+        margin-top: -35px;
+    }
+
+    .info-div {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .contact {
+        margin-left: 10%;
+    }
+
+    .contact input {
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .page3, .newsletter h2 {
+        font-size: 52px;
+    }
+
+    .newsletter button, .newsletter input {
+        height: 45px;
+    }
+
+    .portfolio img:hover {
+        transform: scale(1.1);
+    }
+
+    textarea {
+        width: 100%;
+        height: 200px;
+        border: none;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgb(211, 211, 211, 0.6)
+    }
+
+    .headline2 h2{
+        margin-bottom: 100px;
+    }
+}

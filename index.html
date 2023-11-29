@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="nb" itemscope itemtype="http://schema.org/WebPage">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Epilogue' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Epilogue:wght@400;700&display=swap">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <title itemprop="name">Home</title>
+    <meta charset="UTF-8">
+
+    <meta property="og:title" content="Webutvikling Exam 2023 Home Page">
+    <meta property="og:description" content="Home Page for Exam 2023">
+    <meta property="og:image" content="C:\Users\kevin\Documents\GitHub\Eksamen_Webutvikling_Høst23\img\logo1">
+    <meta property="og:url" content="C:\Users\kevin\Documents\GitHub\Eksamen_Webutvikling_Høst23\index.html">
+    <meta property="og:type" content="website">
+
+    <meta name="description" content="Home page for the Company">
+    <meta name="keywords" content="Home, Services, Branding">
+    <meta name="author" content="Kevin Reinaas">
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+
+    <header role="banner">
+        <a href="index.html" title="Go to Home">
+            <img src="img/logo1.png" alt="Company Logo" itemprop="image"><br><br>
+        </a>
+        <nav role="navigation" aria-label="Main Navigation">
+            <a href="index.html" class="head-link" aria-current="page" tabindex="1" title="Go to Home Page">Home</a><br><br>
+            <a href="products.html" class="head-link" tabindex="2" title="Go to Portfolio">Portfolio</a><br><br>
+            <a href="about.html" class="head-link" tabindex="3" title="Go to About Page">About</a><br><br>
+            <a href="about.html#contact" class="headline-link1" tabindex="4" title="Contact Us">Contact</a>
+        </nav>
+    </header>
+
+    <main itemscope itemtype="http://schema.org/CreativeWork">
+        <div class="headline1" role="banner" aria-labelledby="headline-title" itemprop="about">
+            <video id="my-vid" autoplay muted loop>
+                <source src="img/mountains.mp4" type="video/mp4">
+            </video>
+            <div class="overlay" aria-hidden="true"></div>
+            <article id="article-card" itemprop="headline">
+                <h2 id="headline-title">Compeling headline</h2>
+                <p itemprop="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                    praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                    occaecati cupiditate non provident
+                </p>
+                <a href="#services" class="headline-link" title="Read more about our services" itemprop="url">Read more
+                    about our services</a>
+            </article>
+        </div>
+
+        <section class="engage" role="region" aria-labelledby="engage-title" itemprop="about">
+            <h2 id="engage-title">Engaging subheading. What you can help your visitors with</h2>
+            <p itemprop="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis
+                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint
+                occaecati cupiditate non provident
+            </p>
+        </section>
+
+        <div class="about" role="region" aria-labelledby="about-title" itemprop="about">
+            <img src="img/placeholder.png" alt="Placeholder Image" itemprop="image">
+            <article id="article-card2" itemprop="about">
+                <h2 id="about-title">About Our Company</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                </p>
+                <a href="about.html" class="link2" title="Read more about us" itemprop="url">Read more about us</a>
+            </article>
+        </div>
+
+        <h2 style="text-align: center; font-size: 52px; padding: 50px;">Our Services</h2>
+
+        <div class="services" id="services" role="region" aria-labelledby="services-title" itemprop="about">
+            <section class="services1" itemprop="about">
+                <i class="fa-solid fa-users" style="color: #000000;"></i>
+                <h2 id="services-title">Branding</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><br>
+            </section>
+            <section class="services1" itemprop="about">
+                <i class="fa-solid fa-cloud-arrow-up" style="color: #000000;"></i>
+                <h2>Branding</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><br>
+            </section>
+            <section class="services1" itemprop="about">
+                <i class="fa-solid fa-code" style="color: #000000;"></i>
+                <h2>Branding</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><br>
+            </section>
+            <section class="services1" itemprop="about">
+                <i class="fa-solid fa-wifi" style="color: #000000;"></i>
+                <h2>Branding</h2>
+                <p itemprop="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p><br>
+            </section>
+        </div>
+
+        <section class="newsletter" role="region" aria-labelledby="newsletter-title" itemprop="about">
+            <h2 id="newsletter-title">Sign up for our newsletter</h2>
+            <input type="text" placeholder="   Nora@epost.no">
+            <button itemprop="url">Sign me up!</button>
+        </section>
+    </main>
+
+    <footer role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+        <div class="footer-img">
+            <br><a href="index.html"><img src="img/logo1.png" alt="Company Logo" itemprop="image"></a>
+        </div>
+        <p itemprop="name">Companyrights Companyname 2023</p>
+        <nav>
+            <a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"
+                    style="color: #ffffff;"></i></a>
+            <a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"
+                    style="color: #ffffff;"></i></a>
+            <a href="https://no.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a>
+        </nav>
+        <a href="#top" class="back-to-top-button" aria-label="Back to Top"><i
+                class="fa-solid fa-arrow-up"></i></a>
+    </footer>
+</body>
+</html>
